@@ -16,11 +16,14 @@ The project utilizes a dataset obtained from Kaggle containing anonymized patien
 6. TensorFlow, Keras: Used for building and training deep learning models.
 
 ## Data Preprocessing
+Data preprocessing includes the below steps to ensure consistency before model training
+
 1. Importing Libraries: Python libraries like pandas, numpy, matplotlib, seaborn, tensorflow and keras.
 2. Data visualization: Matplotlib and seaborn are used for data visualization.
-3. Outlier detection: Removes datapoints that significantly deviate from rest of the data to enhance accuracy.
-4. Label encoding: Technique used to convert objects and strings to numerical format.
-5. Feature scaling: Normalize features of varying in magnitude, range, and units on a common scale.
+3. Null value removal: Removes and replaces null values present in attributes.
+4. Outlier detection: Removes datapoints that significantly deviate from rest of the data to enhance accuracy.
+5. Label encoding: Technique used to convert objects and strings to numerical format.
+6. Feature scaling: Normalize features of varying in magnitude, range, and units on a common scale.
 
 ## Machine Learning Models
 The project evaluate patient health by using 4 machine learning models namely:
