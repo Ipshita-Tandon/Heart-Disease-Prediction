@@ -16,11 +16,11 @@ The project utilizes a dataset obtained from Kaggle containing anonymized patien
 6. TensorFlow, Keras: Used for building and training deep learning models.
 
 ## Data Preprocessing
-1. Importing Libraries: Essential Python libraries like pandas, numpy, matplotlib, seaborn, tensorflow and keras are imported.
-2. Data visualization: Matplotlib and seaborn are used for data visualization and display relationships among attributes.
-3. Outlier detection: Removes datapoints that significantly deviate from the rest of the data to enhance model accuracy.
-4. Label encoding: Technique used to convert objects and strings to numerical format interpretable by the model.
-5. Feature scaling: Normalize features varying in magnitude, range, and units on a common scale for evaluation.
+1. Importing Libraries: Python libraries like pandas, numpy, matplotlib, seaborn, tensorflow and keras.
+2. Data visualization: Matplotlib and seaborn are used for data visualization.
+3. Outlier detection: Removes datapoints that significantly deviate from rest of the data to enhance accuracy.
+4. Label encoding: Technique used to convert objects and strings to numerical format.
+5. Feature scaling: Normalize features of varying in magnitude, range, and units on a common scale.
 
 ## Machine Learning Models
 The project evaluate patient health by using 4 machine learning models namely:
