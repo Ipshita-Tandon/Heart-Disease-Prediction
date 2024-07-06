@@ -1,4 +1,4 @@
-# Heart-Disease-Prediction
+# Cardiac-Disease-Prediction
 
 This project aims to analyse a patient's health and predict whether a patient is at risk of having a heart failure using machine learning algorithms. The project leverages a detailed dataset containing various attributes related to heart health, such as age, sex, cholesterol levels, blood pressure and exercise habits. Here I analyse patient data and make predictions using 4 machine learning models and evaluate their relative performance.
 
